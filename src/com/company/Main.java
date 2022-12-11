@@ -34,6 +34,7 @@ public class Main {
         System.out.println("Среднее значение отрицательных чисел: "+sum2/counterNegativeNum);
         double sum3 = sum1/counterPositiveNum + sum2/counterNegativeNum;
         System.out.println("Разница положительных и отрицательных чисел: "+ sum3);
+        System.out.println(Arrays.toString(array));
         arraySort(array);
     }
 
