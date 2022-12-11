@@ -16,17 +16,17 @@ public class Main {
 
         boolean leverArm = false;
 
-        for (int i = 0; i < array.length; i++) {
-            if (array[i] < 0){
+        for (double num: array) {
+            if (num < 0){
                 leverArm = true;
-            }else if (leverArm == true && array[i] > 0){
-                sum1 = sum1 + array[i];
+            }else if (leverArm == true && num > 0){
+                sum1 = sum1 + num;
                 counterPositiveNum++;
             }
-            if (array[i] > 0){
+            if (num > 0){
                 leverArm = true;
-            }else if (leverArm == true && array[i] < 0){
-                sum2 = sum2 + array[i];
+            }else if (leverArm == true && num < 0){
+                sum2 = sum2 + num;
                 counterNegativeNum++;
             }
         }
