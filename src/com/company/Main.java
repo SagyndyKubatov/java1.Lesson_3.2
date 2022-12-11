@@ -40,6 +40,14 @@ public class Main {
 
 
     public static void arraySort (double[] arrayToSort){
+        
+        // Проходим по всему массиву
+        // Найти минимальный элемент
+        // меняем местами первый и минимальный элемент
+        
+        //повторяем пока не пройдем по всему массиву.
+        
+        
         int indexMin;
         for (int index = 0; index < arrayToSort.length-1; index++) {
             indexMin = index;
